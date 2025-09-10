@@ -1,0 +1,2 @@
+/path/to/prod/file1.txt
+/path/to/prod/file2.txt
