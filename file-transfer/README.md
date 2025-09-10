@@ -33,7 +33,8 @@ REMOTE_USER=your_username REMOTE_HOST=your_host bash transfer_files.sh
 ---
 ### 📥 Input Example
 prod_files.txt
-```/path/to/prod/file1.txt
+```
+/path/to/prod/file1.txt
 /path/to/prod/file2.txt
 ```
 dev_files.txt
