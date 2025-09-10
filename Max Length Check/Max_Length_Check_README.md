@@ -58,8 +58,8 @@ Max length per column: [length1, length2, ..., lengthN]
 ```
 
 
-=================================================================================================================================================
-
+---
+---
 # Understanding Text Encoding Techniques
 
 Text encoding is the process of converting characters into bytes so they can be stored and transmitted by computers. Different encoding techniques support different sets of characters and are used in various contexts.
