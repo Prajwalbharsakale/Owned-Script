@@ -6,7 +6,6 @@ This Folder contains a secure and dynamic Bash script to transfer files from a p
 ```
 file-transfer/
 ├── README.md
-├── CODE.md
 ├── transfer_files.sh
 ├── input/
 │   ├── prod_files.txt
@@ -34,11 +33,14 @@ REMOTE_USER=your_username REMOTE_HOST=your_host bash transfer_files.sh
 ---
 ### 📥 Input Example
 prod_files.txt
-/path/to/prod/file1.txt
+```/path/to/prod/file1.txt
 /path/to/prod/file2.txt
+```
 dev_files.txt
+```
 /path/to/dev/file1.txt
 /path/to/dev/file2.txt
+```
 
 ### 📤 Output Example
 transfer_log.txt
