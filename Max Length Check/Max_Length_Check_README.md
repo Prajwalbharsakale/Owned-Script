@@ -6,31 +6,14 @@ This repository contains two Python scripts designed to compute the maximum leng
 ## Folder Structure
 ```
 Max Length Check/
-├── max_length_utf8.py	
 ├── max_length_latin_fallback.py
+├── max_length_utf8.py	
 ```
 
 ---
 
-## 1. max_length_utf8.py	
 
-### Description
-This script calculates the maximum length of each column in a pipe-delimited file using UTF-8 encoding.
-
-### Usage
-```bash
-python3 max_length_utf8.py	 File_to_be_checked.txt
-```
-
-### Functionality
-- Reads the file line by line.
-- Splits each line by the pipe (`|`) delimiter.
-- Tracks the maximum length of each column.
-- Prints progress every 1,000,000 lines.
-
----
-
-## 2. max_length_latin_fallback.py
+## 1. max_length_latin_fallback.py
 
 ### Description
 This script performs the same column length calculation but supports multiple encodings (Latin1 and CP1252).
@@ -47,6 +30,24 @@ python3 max_length_latin_fallback.py File_to_be_checked.txt
 - Tracks the maximum length of each column.
 - Prints progress every 1,000,000 lines.
 - Displays the encoding used to read the file.
+
+---
+
+## 2. max_length_utf8.py	
+
+### Description
+This script calculates the maximum length of each column in a pipe-delimited file using UTF-8 encoding.
+
+### Usage
+```bash
+python3 max_length_utf8.py	 File_to_be_checked.txt
+```
+
+### Functionality
+- Reads the file line by line.
+- Splits each line by the pipe (`|`) delimiter.
+- Tracks the maximum length of each column.
+- Prints progress every 1,000,000 lines.
 
 ---
 
