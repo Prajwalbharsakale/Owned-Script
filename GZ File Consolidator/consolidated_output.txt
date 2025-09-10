@@ -1,0 +1,16 @@
+----------------------------------------------------------------------
+File 1 record: logs_20230901.gz
+----------------------------------------------------------------------
+INFO: Starting log...
+INFO: Connecting to database...
+INFO: Connection successful.
+...
+
+----------------------------------------------------------------------
+File 2 record: logs_20230902.gz
+----------------------------------------------------------------------
+INFO: Starting log...
+ERROR: Timeout occurred.
+...
+
+Error reading logs_20230903.gz: [Errno 2] No such file or directory: 'logs_20230903.gz'
