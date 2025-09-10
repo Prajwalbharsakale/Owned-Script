@@ -7,7 +7,7 @@ This repository contains two Python scripts designed to compute the maximum leng
 ```
 Max Length Check/
 ├── max_length_utf8.py	
-├── Max_length_check_pipe_del_file.py
+├── max_length_latin_fallback.py
 ```
 
 ---
@@ -30,14 +30,14 @@ python3 max_length_utf8.py	 File_to_be_checked.txt
 
 ---
 
-## 2. Max_length_check_pipe_del_file.py
+## 2. max_length_latin_fallback.py
 
 ### Description
 This script performs the same column length calculation but supports multiple encodings (Latin1 and CP1252).
 
 ### Usage
 ```bash
-python3 Max_length_check_pipe_del_file.py File_to_be_checked.txt
+python3 max_length_latin_fallback.py File_to_be_checked.txt
 ```
 
 ### Functionality
