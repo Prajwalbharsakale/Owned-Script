@@ -45,15 +45,16 @@ dev_files.txt
 
 ### 📤 Output Example
 ##### transfer_log.txt
-
-*-Transfer Log - Wed Sep 10 10:00:00 UTC 2025
+```
+Transfer Log - Wed Sep 10 10:00:00 UTC 2025
 File Transfer: from /path/to/prod/file1.txt to /path/to/dev/file1.txt
 File Transfer: from /path/to/prod/file2.txt to /path/to/dev/file2.txt
+```
 
 #### ⚠️ Error Handling
-If a file path is invalid, scp will silently fail (stderr redirected).
-Script continues processing remaining files.
-Listing with ls -ltr helps verify file existence.
+- If a file path is invalid, scp will silently fail (stderr redirected).
+- Script continues processing remaining files.
+- Listing with ls -ltr helps verify file existence.
 
 ---
 ### ✅ Benefits 
