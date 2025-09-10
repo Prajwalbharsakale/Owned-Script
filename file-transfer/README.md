@@ -44,8 +44,9 @@ dev_files.txt
 ```
 
 ### 📤 Output Example
-transfer_log.txt
-Transfer Log - Wed Sep 10 10:00:00 UTC 2025
+##### transfer_log.txt
+
+*-Transfer Log - Wed Sep 10 10:00:00 UTC 2025
 File Transfer: from /path/to/prod/file1.txt to /path/to/dev/file1.txt
 File Transfer: from /path/to/prod/file2.txt to /path/to/dev/file2.txt
 
