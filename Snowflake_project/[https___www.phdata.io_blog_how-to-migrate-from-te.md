@@ -255,7 +255,6 @@ Please let me know which sections to focus on, and I'll make targeted, precise u
 
 # File Structure for Production Migration Pipeline
 ```
-
 teradata_snowflake_migration/
 ├── dags/
 │   ├── 01_data_extraction_dag.py
@@ -275,7 +274,6 @@ teradata_snowflake_migration/
 └── config/
 ├── snowflake_conn.yml
 └── teradata_conn.yml
-
 ```
 
 ## 1. AIRFLOW CONNECTION SETUP (Admin → Connections)
