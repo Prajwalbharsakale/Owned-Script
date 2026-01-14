@@ -254,7 +254,7 @@ Please let me know which sections to focus on, and I'll make targeted, precise u
 # =====================================================
 
 # File Structure for Production Migration Pipeline
-```
+
 teradata_snowflake_migration/
 ├── dags/
 │   ├── 01_data_extraction_dag.py
