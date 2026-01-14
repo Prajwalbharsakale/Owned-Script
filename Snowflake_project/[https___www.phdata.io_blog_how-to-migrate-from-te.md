@@ -252,7 +252,9 @@ Please let me know which sections to focus on, and I'll make targeted, precise u
 # COMPLETE TERADATA → SNOWFLAKE MIGRATION PIPELINE
 # Airflow + DBT + Snowflake + Python (Snowpark)
 # =====================================================
+```
 
+```
 # File Structure for Production Migration Pipeline
 
 teradata_snowflake_migration/
